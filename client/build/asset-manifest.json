@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.510d1262.chunk.css",
+    "main.js": "/static/js/main.cf8842e5.chunk.js",
+    "main.js.map": "/static/js/main.cf8842e5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e0850e06.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e0850e06.js.map",
+    "static/css/2.0be08a0d.chunk.css": "/static/css/2.0be08a0d.chunk.css",
+    "static/js/2.9b27b5fc.chunk.js": "/static/js/2.9b27b5fc.chunk.js",
+    "static/js/2.9b27b5fc.chunk.js.map": "/static/js/2.9b27b5fc.chunk.js.map",
+    "static/js/3.bfcdaf36.chunk.js": "/static/js/3.bfcdaf36.chunk.js",
+    "static/js/3.bfcdaf36.chunk.js.map": "/static/js/3.bfcdaf36.chunk.js.map",
+    "static/js/4.021f2711.chunk.js": "/static/js/4.021f2711.chunk.js",
+    "static/js/4.021f2711.chunk.js.map": "/static/js/4.021f2711.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.88edab2563e8b44c356b98cdee6e1018.js": "/precache-manifest.88edab2563e8b44c356b98cdee6e1018.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0be08a0d.chunk.css.map": "/static/css/2.0be08a0d.chunk.css.map",
+    "static/css/main.510d1262.chunk.css.map": "/static/css/main.510d1262.chunk.css.map",
+    "static/js/2.9b27b5fc.chunk.js.LICENSE.txt": "/static/js/2.9b27b5fc.chunk.js.LICENSE.txt",
+    "static/media/fortnite.png": "/static/media/fortnite.ffc0cce5.png",
+    "static/media/mask.png": "/static/media/mask.ae85b438.png",
+    "static/media/overwatch.png": "/static/media/overwatch.269b35dc.png",
+    "static/media/pattern.png": "/static/media/pattern.2f625cfa.png",
+    "static/media/pubg.png": "/static/media/pubg.ae346105.png",
+    "static/media/siege.png": "/static/media/siege.db9a5061.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0850e06.js",
+    "static/css/2.0be08a0d.chunk.css",
+    "static/js/2.9b27b5fc.chunk.js",
+    "static/css/main.510d1262.chunk.css",
+    "static/js/main.cf8842e5.chunk.js"
+  ]
+}

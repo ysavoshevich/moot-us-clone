@@ -1,0 +1,55 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bit/joshk.react-spinners-css.default": "^1.1.7",
+    "@bit/joshk.react-spinners-css.ellipsis": "^1.1.7",
+    "@bit/joshk.react-spinners-css.orbitals": "^1.1.7",
+    "@bit/joshk.react-spinners-css.ripple": "^1.1.7",
+    "@bit/joshk.react-spinners-css.roller": "^1.1.7",
+    "@hot-loader/react-dom": "^16.12.0",
+    "@material-ui/core": "^4.9.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "moment": "^2.24.0",
+    "react": "0.0.0-experimental-d28bd2994",
+    "react-dom": "0.0.0-experimental-d28bd2994",
+    "react-google-login": "^5.1.1",
+    "react-helmet": "^5.2.1",
+    "react-hot-loader": "^4.12.19",
+    "react-infinite-scroll-component": "^5.0.4",
+    "react-infinite-scroller": "^1.2.4",
+    "react-media": "^1.10.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-select": "^3.0.8",
+    "react-selectize": "^3.0.1",
+    "react-spring": "^8.0.27",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}

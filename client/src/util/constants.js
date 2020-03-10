@@ -1,0 +1,2 @@
+export const MEDIA_BREAKPOINT = 800;
+export const MOBILE_BACKGROUND_HEIGHT = 180;
