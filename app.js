@@ -39,4 +39,5 @@ app.get("*", function(req, res) {
 });
 
 const server = app.listen(port);
-require("./socket").init(server);
+const io = require("./socket").init(server);
+io.on("connection", socket => {});
