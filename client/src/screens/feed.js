@@ -14,7 +14,12 @@ import { NewPostForm } from "../components/forms";
 import { WritePostButton } from "../components/buttons";
 import Filter from "../components/filter";
 
-const socket = openSocket("http://localhost:3001/");
+const getSocketURL = () =>
+  process.env.NODE_ENV === "production"
+    ? "https://moot-us-clone.herokuapp.com/"
+    : "http://localhost:3001/";
+
+const socket = openSocket(getSocketURL());
 
 const StyledFeed = styled.div`
   width: 600px;
@@ -120,7 +125,6 @@ function Feed() {
       { headers: { authorization: `Bearer ${token}` } }
     );
   };
-
   return (
     <StyledFeed>
       <Dialog

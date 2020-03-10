@@ -19,6 +19,7 @@ export const StyledSearchBar = styled.div`
   }
   @media (max-width: ${MEDIA_BREAKPOINT}px) {
     margin-right: 0px;
+    margin-left: 0px;
     width: 80%;
     height: 70%;
     border-radius: 2px;
