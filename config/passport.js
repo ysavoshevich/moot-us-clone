@@ -2,15 +2,14 @@ var passport = require("passport");
 var GoogleTokenStrategy = require("passport-google-token").Strategy;
 const User = require("../models/User");
 
-module.exports = passport =>
+module.exports = (passport) =>
   passport.use(
     new GoogleTokenStrategy(
       {
-        clientID:
-          "909565964000-thqg3l7e6e7gmr792lfm94oe3l3hj6a7.apps.googleusercontent.com",
-        clientSecret: "luTVNjzivuNjXlba-RJxeJjX"
+        clientID: process.env.GOOGLE_CLIENT_ID,
+        clientSecret: process.env.GOOGLE_CLIENT_SECRET,
       },
-      async function(accessToken, refreshToken, profile, done) {
+      async function (accessToken, refreshToken, profile, done) {
         try {
           const { id: googleId, email, picture } = profile._json;
           const loadedUser = await User.findOne({ googleId });
@@ -22,7 +21,7 @@ module.exports = passport =>
               googleId,
               email,
               profile: { avatarUrl: picture },
-              online: true
+              online: true,
             }).save();
             done(null, savedUser);
           }
